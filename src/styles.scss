@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+@import "primeicons/primeicons.css";
+@import "primeng/resources/themes/saga-blue/theme.css";
+@import "primeng/resources/primeng.min.css";
+
+body {
+  margin: 0;
+
+  app-root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+}

@@ -1,4 +1,5 @@
 # StretchLayoutPtabmenu
+This project demo how to use CSS Flexbox to implement a 3 sections layout with the mid section auto stretch to available height.  This demo also shows how to auto stretch AgGrid in the mid section.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.13.
 
