@@ -1,3 +1,4 @@
+// Make <app-claim-search> a flex container so it's child can grow.
 :host {
   display: flex;
   flex-direction: column;
