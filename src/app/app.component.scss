@@ -1,24 +1,19 @@
-:host {  // :host = app-root in this case
+// :host = app-root in this case
+// app-root has been made to have 100vh and a flex container in styles.scss.
+:host {  
 
+  // target the element after router-outlet to grow.  This should
+  //   be the only child of <app-root> that grows.
   ::ng-deep router-outlet + * {
     background-color: lightblue;
 
-    flex: 1;
+    flex: 1; // grow
   }
 }
 
 .banner {
   background-color: limegreen;
 }
-
-// .auto-stretch {
-//   flex: 1;
-
-//   display: flex;
-//   flex-direction: column;
-
-//   background-color: lightblue;
-// }
 
 
 .footer {
