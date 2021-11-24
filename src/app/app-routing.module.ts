@@ -4,6 +4,7 @@ import { ClaimDetailComponent } from './components/claim-detail/claim-detail.com
 import { ClaimSearchComponent } from './components/claim-search/claim-search.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/detail', pathMatch: 'full'},
   {path: 'search', component: ClaimSearchComponent},
   {path: 'detail', component: ClaimDetailComponent},
 ];

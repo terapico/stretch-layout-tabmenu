@@ -7,12 +7,15 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  items: MenuItem[] = [];
+  items: MenuItem[] = [
+    {label: 'Claim Search', routerLink: ['search']},
+    {label: 'Claim Detail', routerLink: ['detail']},
+    {label: 'Claim History', routerLink: ['history']},
+  ];
+
+  activeItem: MenuItem = this.items[1];
 
   ngOnInit() {
-    this.items = [
-      {label: 'Claim Search', routerLink: ['search']},
-      {label: 'Claim Detail', routerLink: ['detail']},
-    ];
+
   }
 }
