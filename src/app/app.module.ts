@@ -7,12 +7,14 @@ import { ClaimSearchComponent } from './components/claim-search/claim-search.com
 import { ClaimDetailComponent } from './components/claim-detail/claim-detail.component';
 import {TabMenuModule} from 'primeng/tabmenu';
 import { AgGridModule } from 'ag-grid-angular';
+import { ClaimHistoryComponent } from './components/claim-history/claim-history.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClaimSearchComponent,
-    ClaimDetailComponent
+    ClaimDetailComponent,
+    ClaimHistoryComponent
   ],
   imports: [
     BrowserModule,
